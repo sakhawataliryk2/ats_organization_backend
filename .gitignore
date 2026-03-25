@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+!.env.example
+
+# Logs
+logs
+*.log
+logs/*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories
+dist/
+build/
+.cache/
+
+# Coverage (tests)
+coverage/
+.nyc_output/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+
+# TypeScript build
+*.tsbuildinfo
+
+# Optional lock files (ignore if using only one package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+config.bat
